@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+  background-image: url(../images/img.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+:root{
+    --Primary:#FED049;
+    --Secondary:#007580;
+    --Red:#E01B24;
+    --Grey:#FAFAFA;
+    --Black:#000000;
+  }
+  .inp{
+    margin-right: 15px ;
+    border-radius: 7px;
+    border: 1px solid #888484;
+  }
+  .button{
+    font-weight: 600 !important;
+    letter-spacing: 1px;
+    width: 120px !important;
+  }
+  .button:hover{
+    color: #fff !important;
+    transform: scale(1.1);
+    transition: 0.9s;
+  }
+
+  .list-div{
+    background-color: rgb(182, 171, 171);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+   /*//////// list-div Child /////////////*/
+  .task{
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px !important;
+    letter-spacing: 1px !important;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+  }
+  .task:hover{
+    background-color: rgb(161, 156, 156);
+  }
+
+  /* ////////// Delete From List //////////// */
+  .del{
+    color: black;
+    background-color: var(--Red);
+    padding: 5px;
+    cursor: pointer;
+    margin-left: auto;
+    font-weight: 700;
+    border-radius: 7px;
+  }
+  .del:hover{
+    transform: scale(1.1);
+    transition: 0.9s;
+    background-color: var(--Secondary);
+    color: #fff;
+  }
